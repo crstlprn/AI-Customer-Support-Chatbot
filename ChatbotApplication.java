@@ -6,7 +6,7 @@ import java.net.URL;
 import java.util.Scanner;
 
 public class ChatbotApplication {
-    private static final String OPENAI_API_KEY = "your_openai_api_key";
+    private static final String OPENAI_API_KEY = System.getenv("OPENAI_API_KEY");
     private static final String API_URL = "https://api.openai.com/v1/chat/completions";
 
     public static void main(String[] args) throws IOException {

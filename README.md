@@ -50,3 +50,15 @@ AI-Customer-Support-Chatbot/
 **Windows (CMD)**:
 ```cmd
 setx OPENAI_API_KEY "sk-your-api-key"
+
+### 4️⃣ Compile and Run the Application
+javac ChatbotApplication.java
+java ChatbotApplication
+
+Notes:
+
+Run these commands inside the folder containing ChatbotApplication.java.
+
+After setting the API key in CMD or PowerShell, close and reopen your terminal so it takes effect.
+
+If you still get a 401 Unauthorized error, double-check your API key and ensure it hasn’t expired.
